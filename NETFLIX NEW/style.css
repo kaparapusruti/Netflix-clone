@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(44, 41, 41);
+}
+
+.display-5{
+    font-size: 60px;
+}
+.col-7{
+    margin-left: 294px;
+    margin-top: 14%;
+}
+.d-flex{
+    margin-top: -15px;
+}
+
+.showcase{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url('img/background.jpg') no-repeat center center/cover;
+}
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+.showcase-2{
+    background-color: black;
+    margin-top: -26px;
+    height: 430px;
+}
+.showcase-3{
+    background-color: black;
+    margin-top: -26px;
+    height: 860px;
+}
+
+/* Footer part */
+.showcase-4{
+    background-color: black;
+    margin-top: -26px;
+    height: 430px;
+    color: rgb(147, 133, 133);
+}
+.showcase-4 ul li{
+      list-style: none;
+      margin-top: 5px;
+}
+.showcase-4 ul a{
+    text-decoration: none;
+    color: rgb(147, 133, 133);
+    font-size: 0.8rem;
+}
+.para-1 a{
+    text-decoration: none;
+    color: rgb(147, 133, 133);
+    font-size: 00.8rem;
+}
+
+
